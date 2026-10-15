@@ -1,0 +1,115 @@
+.wrapper {
+}
+.container {
+    max-width: 1230px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.content {
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.left {
+    flex-grow: 1;
+    max-width: 600px;
+}
+.left__title {
+    margin: 0px;
+    font-size: 24px;
+}
+.left__list{
+    padding: 0px;
+}
+.left__list li{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ABABAB;
+    color: #000000;
+}
+.right {
+    flex-grow: 1;
+    max-width: 500px;
+}
+.form legend{
+    font-size: 24px;
+    font-weight: bold;
+}
+.form fieldset{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+.form__title {
+    color: #ABABAB;
+    margin-bottom: 15px;
+}
+.form__input {
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #ABABAB;
+    color: #000000;
+    border: none;
+}
+.form__input::placeholder{
+    color: #000000;
+}
+.form__textarea{
+    min-height: 300px;
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #ABABAB;
+    color: #000000;
+    resize: none;
+    border: none;
+}
+.form__textarea::placeholder{
+    color: #000000;
+}
+
+.btn-add{
+    max-width: 300px;
+    padding: 15px;
+    background-color: #2172D2;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    transition: .4s ease all;
+}
+
+.btn-add:hover{
+    background-color: #1E67BD;
+    transition: .4s ease all;
+}
+
+.btn-delete{
+    padding: 15px;
+    background-color: #BB0218;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    transition: .4s ease all;
+}
+
+.btn-delete:hover{
+    background-color: #A80216;
+    transition: .4s ease all;
+}
+
+.btn-store{
+    padding: 15px;
+    background-color: #66AB1B;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    transition: .4s ease all;
+}
+
+.btn-store:hover{
+    background-color: #5C9A18;
+    transition: .4s ease all;
+}
